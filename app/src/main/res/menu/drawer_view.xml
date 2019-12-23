@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Dashboard" android:id="@+id/nav_dash"/>
+    <item android:title="Recipes">
+        <menu>
+            <item
+                android:id="@+id/nav_recipe"
+                android:icon="@drawable/casual"
+                android:title="Recipe Search" />
+        </menu>
+    </item>
+
+    <item android:title="Food">
+        <menu>
+            <item
+                android:id="@+id/nav_food"
+                android:icon="@drawable/pasta"
+                android:title="Food Tracker" />
+            <item
+                android:id="@+id/nav_reminder"
+                android:icon="@drawable/disserts"
+                android:title="Reminder"/>
+
+        </menu>
+    </item>
+    <item android:title="Wireless Device Config"
+            android:id="@+id/nav_bt"/>
+    <item android:title="Settings">
+        <menu>
+            <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/account"
+            android:title="Account" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+
+</menu>
